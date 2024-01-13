@@ -1,0 +1,13 @@
+/* FriendList.module.css */
+.friendList {
+    list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px; /* or any other spacing you prefer */
+  min-height: 100vh; /* Minimum height of the viewport */
+  align-content: center; /* This will center the items vertically when they wrap */
+}
